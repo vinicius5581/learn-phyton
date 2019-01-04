@@ -75,3 +75,13 @@ list1 = [1,5,4]
 print(list1)
 tup1 = tuple(list1)
 print(tup1)
+
+tup2 = ("Sam", 20)
+print(tup2)
+x, y = tup2
+print(x)
+print(y)
+# unpacking
+x, y = y, x
+print(x)
+print(y)
